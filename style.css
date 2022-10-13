@@ -86,7 +86,8 @@ color:#2196F3;
 padding-top: 200px;
 padding-bottom: 200px;
 text-align: center ;
-background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) url(../images/bgi.jpg) ;
+/* background-image: url(../images/bgim.jpg); */
+background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/bgim.jpg);
 background-position: center;
 }
 .section.hero,
@@ -136,6 +137,20 @@ nav{
 }
 .contact-item:not(:first-child){
     margin-left: 50px;
+}
+.mail::before{
+    content: "";
+    width: 16px;
+    height: 12px;
+    background-image: url(./images/mail.svg);
+    background-size: contain;
+}
+.telephon::before{
+    content: "";
+    width: 10px;
+    height: 16px;
+    background-image: url(./images/telephon.svg);
+    background-size: contain;
 }
 /* футер */
 .section.footer{
