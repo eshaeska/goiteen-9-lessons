@@ -144,6 +144,7 @@ nav{
     height: 12px;
     background-image: url(./images/mail.svg);
     background-size: contain;
+    display: inline-block;
 }
 .telephon::before{
     content: "";
@@ -151,6 +152,7 @@ nav{
     height: 16px;
     background-image: url(./images/telephon.svg);
     background-size: contain;
+    display: inline-block;
 }
 /* футер */
 .section.footer{
